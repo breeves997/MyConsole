@@ -4,12 +4,10 @@
     "debugType": "portable"
   },
   "dependencies": {
-    "System.Runtime.Serialization.Primitives": "4.1.1",
-    "xunit": "2.1.0",
-    "dotnet-test-xunit": "1.0.0-rc2-192208-24",
-		"MyConsole": {
-			"target": "project"
-		}
+    "System.Runtime.Serialization.Primitives": "4.3.0",
+    "src": "1.0.0-*",
+    "Microsoft.NETCore.App": "1.1.1",
+    "xunit": "2.2.0"
   },
   "testRunner": "xunit",
   "frameworks": {
